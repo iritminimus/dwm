@@ -2,76 +2,78 @@
 
 ## Keybinds
 
-- q
-- Q 
-- w
-- W
-- e
-- E
-- t
-- T
-- y
-- Y
-- u
-- U
-- i
-- I
-- o
-- O
-- p
-- P
-- å
-- Å
-- ¨
-- ^
+- q         kill window
+- Q         
+- w         browser aka firefox
+- W         _second browser aka chrome_
+- e         vim
+- E         _vim dwm config_
+- r         ranger
+- R         htop
+- t         layouts
+- T         |
+- y         |
+- Y         |
+- u         |
+- U         |
+- i         |
+- I         |
+- o         increment master +1
+- O         increment master -1
+- p         _make music stop? toggle?_
+- P         _just pause music_
+- å         _open coding things?_
+- Å         _same thing here?_
+- ¨         
+- ^         
 
-- a
-- A
-- s
-- S
-- d
-- D
-- f
-- F
-- g
-- G
-- h
-- H
-- j
-- J
-- k
-- K
-- l
-- L
-- ö
-- Ö
-- ä
-- Ä
-- '
-- *
+- a         toggle gaps
+- A         restore default gaps
+- s         toggle sticky
+- S         _toggle smart gaps_
+- d         _rofi_
+- D         _dmenu_
+- f         fullscreen
+- F         floating
+- g         
+- G         
+- h         
+- H         
+- j         
+- J         
+- k         
+- K         
+- l         
+- L         
+- ö         
+- Ö         
+- ä         
+- Ä         
+- '         
+- *         
 
-- <
-- ">"
-- z
-- Z
-- x
-- X
-- c
-- C
-- v
-- V
-- b
-- B
-- n
-- N
-- m
-- M
-- ,
-- ;
-- .
-- :
-- "-"
-- "_"
+- <         
+- ">"       
+- z         
+- Z         
+- x         
+- X         
+- c         
+- C         
+- v         
+- V         
+- b         
+- B         
+- n         
+- N         
+- m         
+- M         
+- ,         
+- ;         
+- .         
+- :         
+- "-"       
+- "_"       
 
 
 ## FAQ
