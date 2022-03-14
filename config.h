@@ -196,11 +196,13 @@ static Key keys[] = {
 	//{ MODKEY,				XK_g,		shiftview,				{ .i = -1 } },
 	//{ MODKEY|ShiftMask,	XK_g,		shifttag,				{ .i = -1 } },
 	//{ MODKEY,				XK_h,		setmfact,				{.f = -0.05} },
+
 	/* J and K are automatically bound above in STACKEYS */
-	//{ MODKEY,				XK_l,		setmfact,      	{.f = +0.05} },
-	//{ MODKEY,				XK_semicolon,	shiftview,	{ .i = 1 } },
-	//{ MODKEY|ShiftMask,	XK_semicolon,	shifttag,	{ .i = 1 } },
-	//{ MODKEY,				XK_apostrophe,	togglescratch,	{.ui = 1} },
+	
+	//{ MODKEY,				XK_l,				setmfact,      	{.f = +0.05} },
+	//{ MODKEY,				XK_semicolon,		shiftview,		{ .i = 1 } },
+	//{ MODKEY|ShiftMask,	XK_semicolon,		shifttag,		{ .i = 1 } },
+	//{ MODKEY,				XK_apostrophe,		togglescratch,	{.ui = 1} },
 	/* { MODKEY|ShiftMask,	XK_apostrophe,		spawn,				SHCMD("") }, */
 	{ MODKEY|ShiftMask,		XK_apostrophe,		togglesmartgaps,	{0} },
 	{ MODKEY,				XK_Return,			spawn,				{.v = termcmd } },
@@ -210,7 +212,7 @@ static Key keys[] = {
 	/* { MODKEY|ShiftMask,	XK_z,				spawn,				SHCMD("") }, */
 	{ MODKEY,				XK_x,				incrgaps,			{.i = -3 } },
 	/* { MODKEY|ShiftMask,	XK_x,				spawn,				SHCMD("") }, */
-	/* { MODKEY,			XK_c,				spawn,				SHCMD("") }, */
+	{ MODKEY,				XK_c,				spawn,				SHCMD(TERMINAL " -e vim") },
 	/* { MODKEY|ShiftMask,	XK_c,				spawn,				SHCMD("") }, */
 	/* V is automatically bound above in STACKKEYS */
 	{ MODKEY,				XK_b,				togglebar,			{0} },
