@@ -1,4 +1,78 @@
-# Luke's build of dwm
+# FORK OF Luke's build of dwm
+
+## Keybinds
+
+- q
+- Q 
+- w
+- W
+- e
+- E
+- t
+- T
+- y
+- Y
+- u
+- U
+- i
+- I
+- o
+- O
+- p
+- P
+- å
+- Å
+- ¨
+- ^
+
+- a
+- A
+- s
+- S
+- d
+- D
+- f
+- F
+- g
+- G
+- h
+- H
+- j
+- J
+- k
+- K
+- l
+- L
+- ö
+- Ö
+- ä
+- Ä
+- '
+- *
+
+- <
+- ">"
+- z
+- Z
+- x
+- X
+- c
+- C
+- v
+- V
+- b
+- B
+- n
+- N
+- m
+- M
+- ,
+- ;
+- .
+- :
+- "-"
+- "_"
+
 
 ## FAQ
 
