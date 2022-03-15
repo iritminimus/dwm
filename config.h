@@ -23,9 +23,9 @@ static char selfgcolor[]            = "#eeeeee";
 static char selbordercolor[]        = "#770000";
 static char selbgcolor[]            = "#005577";
 static char *colors[][3] = {
-       /*               fg           bg           border   */
-       [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
-       [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
+	   /*               fg           bg           border   */
+	   [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
+	   [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
 };
 
 typedef struct {
@@ -156,8 +156,8 @@ static Key keys[] = {
 	{ MODKEY,				XK_BackSpace,	spawn,		SHCMD("sysact") },
 	{ MODKEY|ShiftMask,		XK_BackSpace,	spawn,		SHCMD("sysact") },
 
-	{ MODKEY,			XK_Tab,		view,		{0} },
-	/* { MODKEY|ShiftMask,		XK_Tab,		spawn,		SHCMD("") }, */
+	{ MODKEY,				XK_Tab,		view,		{0} },
+	/* { MODKEY|ShiftMask,	XK_Tab,		spawn,		SHCMD("") }, */
 	{ MODKEY,				XK_q,		killclient,		{0} },									// kill window
 	{ MODKEY|ShiftMask,		XK_q,		spawn,			SHCMD("sysact") },						// shutdown menu
 	{ MODKEY,				XK_w,		spawn,			SHCMD("$BROWSER") },					// firefox
